@@ -1,0 +1,36 @@
+/* kpaf table styles */
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 10px outset rgb(153, 0, 153);
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td{
+  border: 1px solid gray;
+}
+ 
+thead th{
+  background-color: rgb(203,50,203);
+  color: white;
+  line-height: 50px;
+}
+
+caption{
+  caption-side: bottom;
+  text-align: right;
+}
+
+tbody th{
+  background-color: rgb(255,255,192);
+  width: 7%;
+}
+
+tbody tr{
+  height: 40px;
+}
+
+td{
+  width: 13%;
+  vertical-align: top;
+  padding: 5px;
+}
